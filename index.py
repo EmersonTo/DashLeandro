@@ -49,8 +49,10 @@ app.layout = html.Div(children=[
     dbc.Row([
             dbc.Col([
                 dbc.Card([
-                    html.H1("CONTABILIDADE", style={
-                        "font-size": "2.5vw"}),
+                    # TESERCON 2.5
+                    ## L.RODRIGUES & ASSOCIADOS 1.8
+                    html.H3("L.RODRIGUES & ASSOCIADOS", style={
+                        "font-size": "1.8vw"}),
                     html.Hr(style={"font-size": "0.4vw"}),
                     html.H3("Cidades:", style={
                         "font-size": "0.8vw"}),
